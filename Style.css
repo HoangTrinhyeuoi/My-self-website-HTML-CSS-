@@ -1,0 +1,66 @@
+body{
+    font-family: Arial;
+}
+header{
+    background-image: url(../HW1/Image/PXL_20240224_071950734.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: beige;
+    margin-bottom: 57px;
+}
+
+header a{
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 15px 5%;
+    opacity: 0.55;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 8px;
+    color: #007c98;
+    font-weight: bold;
+}
+
+.active{
+    background-color: #ffcca4;
+    color: #8a3d00;
+    opacity: 1;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+    width: 20%;
+    background-color: #00FF99;
+    text-align: center;
+}
+
+.right{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 25px;
+}
+
+.right h2{
+    color: #007c98;
+}
+
+.right summary{
+    color: #8a3d00;
+}
+
+.left img{
+    border-radius: 8px;
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px solid blanchedalmond;
+}
